@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [erensrtky/cogit](https://github.com/erensrtky/cogit) | Records each Claude Code message with what was decided and rejected, links commits back to it through a `Thought:` trailer, and draws the sessions as a local map; `cogit why file:line` traces a line back to its message | `npm install -g @cogit/cli` then `claude plugin install cogit --marketplace erensrtky/cogit` |
 
 
 ### Skills & Frameworks
